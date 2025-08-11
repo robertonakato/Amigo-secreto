@@ -92,6 +92,12 @@ body {
   justify-content: center;
   gap: 10px;
   display: flex;
+.button-container {
+  width: 300px;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Estilos de entrada de texto */
@@ -162,3 +168,4 @@ ul {
 .button-draw:hover {
   background-color: var(--color-button-hover);
 }
+
