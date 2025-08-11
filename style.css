@@ -92,6 +92,8 @@ body {
   justify-content: center;
   gap: 10px;
   display: flex;
+  flex-direction: column;
+
 .button-container {
   width: 300px;
   justify-content: center;
@@ -168,4 +170,5 @@ ul {
 .button-draw:hover {
   background-color: var(--color-button-hover);
 }
+
 
